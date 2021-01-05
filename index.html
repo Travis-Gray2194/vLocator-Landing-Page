@@ -32,6 +32,21 @@
 
     <!-- Font Favicon -->
     <link rel="shortcut icon" href="images/favicon.ico" />
+    <!-- MailerLite Universal -->
+<script>
+  (function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+  var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+  f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+  var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+  _.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+  
+  var ml_account = ml('accounts', '2753680', 'q2x8x3r7d3', 'load');
+  </script>
+  <!-- End MailerLite Universal -->
+  <script>
+    var ml_webform_3302221 = ml_account('webforms', '3302221', 'p0k7w6', 'load');
+    ml_webform_3302221('animation', 'fadeIn');
+</script>
   </head>
 
   <body>
@@ -214,7 +229,8 @@
                 </li>
               </ul>
 
-              <a href="#contact" class="btn-green small scrool">Try Demo</a>
+              <!-- <a href="#contact" class="btn-green small scrool">Try Demo</a> -->
+              <a class="btn-green small scrool" href="javascript:;" onclick="ml_webform_3302221('show')">Sign up for Beta</a>
             </div>
             <!--end small-column-inside-->
           </div>
@@ -673,10 +689,12 @@
                   We received your message and you'll hear from us soon. Thank
                   You!
                 </p>
+                <a class="btn-green small scrool" href="javascript:;" onclick="ml_webform_3302221('show')">Sign up for our Beta</a>
+
                 <!--end success_box -->
 
                 <!--begin newsletter-form -->
-                <form
+                <!-- <form
                   id="newsletter-form"
                   class="newsletter-form"
                   action="php/newsletter.php"
@@ -694,7 +712,7 @@
                     value="GET STARTED!"
                     id="submit-button-newsletter"
                   />
-                </form>
+                </form> -->
                 <!--end newsletter-form -->
               </div>
               <!--end newsletter_form_box -->
@@ -839,9 +857,10 @@
               We received your message and you'll hear from us soon. Thank You!
             </p>
             <!--end success message -->
+            <a class="btn-green small scrool" href="javascript:;" onclick="ml_webform_3302221('show')">Sign up for Beta</a>
 
             <!--begin contact form -->
-            <form
+            <!-- <form
               id="contact-form"
               class="contact"
               action="php/contact.php"
@@ -885,7 +904,7 @@
                 class="contact-submit"
                 type="submit"
               />
-            </form>
+            </form> -->
             <!--end contact form -->
           </div>
           <!--end col-md-6 -->
