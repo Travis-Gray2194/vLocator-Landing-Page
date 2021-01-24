@@ -642,7 +642,7 @@ iframe {
 
 .navbar-fixed-top .navbar-nav > li > a.discover-btn {
   border: 1px solid #23de45;
-  color: #23de45 !important;
+    !important;
   background: transparent;
   border-radius: 8px 8px;
   padding: 12px 18px !important;
@@ -1027,6 +1027,7 @@ blockquote {
 .features_item h4 {
   margin-bottom: 10px;
   font-size: 22px;
+  color: #23de45;
 }
 
 .text_align_right {
