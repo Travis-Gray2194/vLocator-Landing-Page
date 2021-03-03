@@ -153,6 +153,19 @@ iframe {
   z-index: 100;
 }
 
+.founder{
+  display: grid;
+  justify-items: center;
+  grid-template-rows: 350px auto;
+  grid-row-gap: 28px;
+
+}
+.founder img{
+  width: 380px;
+  height: 350px;
+  border-radius: 50%; 
+  object-fit: cover;
+}
 .video-popup-wrapper {
   position: relative;
 }
@@ -1847,6 +1860,9 @@ ul.benefits {
 }
 
 ul.benefits li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: baseline;
   font-size: 17px;
   line-height: 26px;
   margin-bottom: 8px;
