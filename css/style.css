@@ -818,7 +818,7 @@ p.contact-info i {
   z-index: 999;
   overflow: hidden;
   padding-top: 140px;
-  padding-bottom: 70px;
+  /* padding-bottom: 70px; */
   background: #23de45;
   background: -webkit-linear-gradient(left top, #23de45, #aae54d);
   background: -o-linear-gradient(bottom right, #23de45, #aae54d);
@@ -826,6 +826,7 @@ p.contact-info i {
   background: linear-gradient(to bottom right, #23de45, #aae54d);
   background-size: cover;
   width: 100%;
+  height: 625px;
 }
 
 .home-section h1 {
@@ -1910,7 +1911,7 @@ ul.benefits li i {
 @media (max-width: 768px) {
   .home-section {
     padding-top: 45px;
-    padding-bottom: 65px;
+    /* padding-bottom: 65px; */
   }
 
   .home-section h1 {
