@@ -826,9 +826,16 @@ p.contact-info i {
   background: linear-gradient(to bottom right, #23de45, #aae54d);
   background-size: cover;
   width: 100%;
-  height: 625px;
-}
+  /* height: 625px; */
 
+  display: grid;
+  background: black;
+  justify-content: center;
+  border: none;
+}
+.home-section img{
+  min-width:  770px;
+}
 .home-section h1 {
   margin-bottom: 15px;
   color: #fff;
