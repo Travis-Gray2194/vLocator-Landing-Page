@@ -1917,7 +1917,7 @@ ul.benefits li i {
 
 @media (max-width: 768px) {
   .home-section {
-    padding-top: 45px;
+    /* padding-top: 45px; */
     /* padding-bottom: 65px; */
   }
 
