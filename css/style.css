@@ -834,7 +834,7 @@ p.contact-info i {
   border: none;
 }
 .home-section img{
-  min-width:  770px;
+  /* min-width:  770px; */
 }
 .home-section h1 {
   margin-bottom: 15px;
