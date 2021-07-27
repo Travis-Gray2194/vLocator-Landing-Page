@@ -38,17 +38,18 @@ $(window).on('load', function(){
 	/*   SmoothScroll                                             */
 	/* ========================================================== */
 	
-	$(".navbar-nav li a, a.scrool").on('click', function(e) {
+	$(".navbar-nav li a:not(.external), a.scrool").on('click', function(e) {
 		
 		var full_url = this.href;
-		var parts = full_url.split("#");
-		var trgt = parts[1];
-		var target_offset = $("#"+trgt).offset();
-		var target_top = target_offset.top;
-		
-		$('html,body').animate({scrollTop:target_top -70}, 1000);
-			return false;
-		
+		if(full_url.includes("#")){
+			var parts = full_url.split("#");
+			var trgt = parts[1];
+			var target_offset = $("#"+trgt).offset();
+			var target_top = target_offset.top;
+			
+			$('html,body').animate({scrollTop:target_top -70}, 1000);
+				return false;
+		}else{}
 	});	
 
 
